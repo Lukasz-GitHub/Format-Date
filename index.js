@@ -12,7 +12,7 @@ const formatDate = (timeInSeconds) => {
     minute = Math.floor(second / 60);
     seconds = second - 60 * minute;
     if (seconds === 0) {
-		return minute + 'm'; 
+      return minute + 'm'; 
     }
     else {
       return minute + 'm ' + seconds + 's';
